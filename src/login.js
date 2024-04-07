@@ -31,5 +31,5 @@ loginForm.addEventListener('submit', async e => {
     }
 
     localStorage.setItem("email", checkUser.email)
-    location.href = "home.html"
+    location.href = "../Home/index.html"
 })
